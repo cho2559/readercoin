@@ -1,9 +1,9 @@
-// Copyright (c) 2018 The Bitcoin Core developers
+// Copyright (c) 2018 The Readercoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_BLOCKFILTER_H
-#define BITCOIN_BLOCKFILTER_H
+#ifndef READERCOIN_BLOCKFILTER_H
+#define READERCOIN_BLOCKFILTER_H
 
 #include <stdint.h>
 #include <unordered_set>
@@ -153,4 +153,4 @@ public:
     }
 };
 
-#endif // BITCOIN_BLOCKFILTER_H
+#endif // READERCOIN_BLOCKFILTER_H

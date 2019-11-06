@@ -1,11 +1,11 @@
-// Copyright (c) 2016-2018 The Bitcoin Core developers
+// Copyright (c) 2016-2018 The Readercoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_WALLET_TEST_WALLET_TEST_FIXTURE_H
-#define BITCOIN_WALLET_TEST_WALLET_TEST_FIXTURE_H
+#ifndef READERCOIN_WALLET_TEST_WALLET_TEST_FIXTURE_H
+#define READERCOIN_WALLET_TEST_WALLET_TEST_FIXTURE_H
 
-#include <test/test_bitcoin.h>
+#include <test/test_readercoin.h>
 
 #include <interfaces/chain.h>
 #include <interfaces/wallet.h>
@@ -23,4 +23,4 @@ struct WalletTestingSetup: public TestingSetup {
     CWallet m_wallet;
 };
 
-#endif // BITCOIN_WALLET_TEST_WALLET_TEST_FIXTURE_H
+#endif // READERCOIN_WALLET_TEST_WALLET_TEST_FIXTURE_H

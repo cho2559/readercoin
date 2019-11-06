@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2018 The Bitcoin Core developers
+// Copyright (c) 2009-2018 The Readercoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_THREADSAFETY_H
-#define BITCOIN_THREADSAFETY_H
+#ifndef READERCOIN_THREADSAFETY_H
+#define READERCOIN_THREADSAFETY_H
 
 #ifdef __clang__
 // TL;DR Add GUARDED_BY(mutex) to member variables. The others are
@@ -65,4 +65,4 @@ struct SCOPED_LOCKABLE LockAnnotation
     ~LockAnnotation() UNLOCK_FUNCTION() {}
 };
 
-#endif // BITCOIN_THREADSAFETY_H
+#endif // READERCOIN_THREADSAFETY_H
